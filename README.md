@@ -1,12 +1,14 @@
 # QuietDNS
 
-QuietDNS blocks known ad and tracker domains across Android apps and browsers. It runs on your phone using Android’s local VPN feature, with no root, account, or subscription required. It supports the Samsung Galaxy A56 and other ARM64 phones running Android 10 or later.
+QuietDNS blocks known ad and tracker domains across apps and browsers on most modern Android phones and tablets. It uses Android’s local VPN feature and works without root, an account, or a subscription.
+
+The APK requires **Android 10 or later** with a **64-bit operating system** (ARM64 or x86_64).
 
 **[Download QuietDNS 1.0 for Android (APK)](https://github.com/touseefeli/QuietDNS/releases/download/v1.0/QuietDNS-1.0.apk)** · [Release notes and checksum](https://github.com/touseefeli/QuietDNS/releases/tag/v1.0)
 
-## Install on a Galaxy A56
+## Install on Android
 
-1. Download the APK to your phone, open it, and choose **Install**. If Android asks, allow installation from the app you used to open the file.
+1. Download the APK to your device, open it, and choose **Install**. If Android asks, allow installation from the app you used to open the file.
 2. Open **QuietDNS**, tap **Turn on protection**, and approve Android’s VPN connection request. The notification permission enables a persistent pause control.
 3. When the home screen shows **Active**, browse normally. **Activity** lists recent blocks. Tap an entry to allow a domain, or manage it under **Rules**.
 4. Use **Rules → Check for updates** to refresh the bundled filter. The last valid list stays available offline.
